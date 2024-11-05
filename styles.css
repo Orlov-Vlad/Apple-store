@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; 
+}
+
+header {
+  background-color: #333; 
+  padding: 10px 20px;
+
+.menu {
+  list-style-type: none; 
+  padding: 0; /* Убираем отступы */
+  margin: 0; /* Убираем отступы */
+  display: flex; /* Используем Flexbox для горизонтального расположения */
+}
+
+.menu li {
+  margin-right: 20px; /* Отступ между элементами меню */
+}
+
+.menu li:last-child {
+  margin-right: 0; /* Убираем отступ у последнего элемента */
+}
+
+.menu a {
+  color: white; /* Цвет текста ссылок */
+  text-decoration: none; /* Убираем подчеркивание */
+  padding: 5px 10px; /* Отступы для ссылок */
+  transition: background-color 0.3s; /* Плавный переход для фона */
+}
+
+.menu a:hover {
+  background-color: #555; /* Цвет фона при наведении */
+}
